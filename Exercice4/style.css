@@ -1,6 +1,6 @@
 header {
   background-color: #ffcc99;
-  box-shadow: 2px 2px 5px rgb(121, 121, 121);
+  box-shadow: 2px 2px 5px rgba(121, 121, 121, 0.5);
 }
 
 h1 {
@@ -21,10 +21,12 @@ aside {
 }
 
 section {
+  margin: 20px;
   flex: 3;
 }
 
 footer {
   background-color: #99cc99;
   border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(121, 121, 121, 0.5);
 }
